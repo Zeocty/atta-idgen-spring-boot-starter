@@ -1,0 +1,39 @@
+{
+  "properties": [
+    {
+      "name": "atta.uid-gen.timeBits",
+      "type": "java.lang.String",
+      "description": "UID-GEN timeBits."
+    },
+    {
+      "name": "atta.uid-gen.workerBits",
+      "type": "java.lang.String",
+      "description": "UID-GEN workerBits."
+    },
+    {
+      "name": "atta.uid-gen.seqBits",
+      "type": "java.lang.String",
+      "description": "UID-GEN seqBits."
+    },
+    {
+      "name": "atta.uid-gen.epochStr",
+      "type": "java.lang.String",
+      "description": "UID-GEN epochStr."
+    },
+    {
+      "name": "atta.uid-gen.boostPower",
+      "type": "java.lang.String",
+      "description": "UID-GEN boostPower."
+    },
+    {
+      "name": "atta.uid-gen.paddingFactor",
+      "type": "java.lang.String",
+      "description": "UID-GEN paddingFactor."
+    },
+    {
+      "name": "atta.uid-gen.scheduleInterval",
+      "type": "java.lang.String",
+      "description": "UID-GEN scheduleInterval."
+    }
+  ]
+}

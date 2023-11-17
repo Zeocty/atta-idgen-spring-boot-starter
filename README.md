@@ -5,11 +5,11 @@ UidGenerator
 
 这里介绍如何在基于SpringBoot的项目中使用UidGenerator, 具体流程如下:
 
-> 使用前需要下载本项目jar包，放到以下文件夹内（.m2\repository\com\metaversity\starter\atta-idgen-spring-boot-starter\1.0.0\atta-idgen-spring-boot-starter-1.0.0.jar），即可实现自动导入
+> 使用前需要下载本项目jar包，放到以下文件夹内（.m2\repository\com\atta\starter\atta-idgen-spring-boot-starter\1.0.0\atta-idgen-spring-boot-starter-1.0.0.jar），即可实现自动导入
 >
 > ```xml
 > <dependency>
->        <groupId>com.metaversity.starter</groupId>
+>        <groupId>com.atta.starter</groupId>
 >        <artifactId>atta-idgen-spring-boot-starter</artifactId>
 >        <version>1.0.0</version>
 > </dependency>

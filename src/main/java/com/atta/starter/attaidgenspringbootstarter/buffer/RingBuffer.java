@@ -157,8 +157,8 @@ public class RingBuffer {
         // trigger padding in an async-mode if reach the threshold
         long currentTail = tail.get();
         if (currentTail - nextCursor < paddingThreshold) {
-            log.info("[uid-gen] Reach the padding threshold:{}. tail:{}, cursor:{}, rest:{}", paddingThreshold, currentTail,
-                    nextCursor, currentTail - nextCursor);
+//            log.info("[uid-gen] Reach the padding threshold:{}. tail:{}, cursor:{}, rest:{}", paddingThreshold, currentTail,
+//                    nextCursor, currentTail - nextCursor);
             bufferPaddingExecutor.asyncPadding();
         }
 
